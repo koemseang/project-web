@@ -15,7 +15,7 @@
 
 <body>
     <!-- Header -->
-    <header class="top-bar">
+    <header id="top-bar">
         <div class="content">
             <div class="logo">PINK BEAUTIFUL</div>
             <div class="address">📍 371, Borey sor la/ Tirk tla/ Sen Sok/ PP</div>
@@ -32,11 +32,11 @@
     <nav>
         <div class="list">
             <ul>
-                <li><a href="A">HOME</a></li>
-                <li><a href="A">PRODUCTS</a></li>
-                <li><a href="A">SHOP</a></li>
-                <li><a href="A">REVIEWS</a></li>
-                <li><a href="A">CONTACT US</a></li>
+                <li><a href="#top-bar">HOME</a></li>
+                <li><a href="#feature">PRODUCTS</a></li>
+                <li><a href="#span-text">SHOP</a></li>
+                <li><a href="#dermatologist">REVIEWS</a></li>
+                <li><a href="#main-footer">CONTACT US</a></li>
             </ul>
         </div>
 
@@ -59,17 +59,17 @@
 
     <!-- _____________Banner___________________ -->
 
-    <div class="bainner">
 
+    <div class="bainner">
         <div class="group-text-baner">
             <h1>Beauty that Begins with You</h1>
         </div>
         <div class="description">
-            Premium skincare designed to
-            bring out your most luminous
-            self. <br>
-            "Invest in your skin, it's your best accessory",
-            "Healthy skin, happy life", and "Skincare is healthcare"
+            <p>Premium skincare designed to
+                bring out your most luminous
+                self. <br>
+                "Invest in your skin, it's your best accessory",
+                "Healthy skin, happy life", and "Skincare is healthcare"</p>
         </div>
         <div class="btn">
             <button class="glow-on-hover" type="button">SHOP THE COLLECT!</button>
@@ -80,7 +80,6 @@
     <!-- _____________Two-small-banner__________________ -->
     <div class="group two-cards">
         <div class="MAIN-CARD">
-
             <div class="card-left">
                 <span>UP TO 30% OFF</span>
                 <h3>Natural Beauty <br>
@@ -109,16 +108,16 @@
     </div>
 
     <!-- ________________Feature Products______________________ -->
-    <div class="feature">
+    <div id="feature">
         <h1>Featured Products</h1>
     </div>
 
     <!-- _________________Multiple products____________________________ -->
     <div class="multiple-features">
         <button> <a href="">ALL</a></button>
-        <a href="">For face</a>
-        <a href="">For body</a>
-        <a href="">For hair</a>
+        <a href="#text-a">For face</a>
+        <a href="#text-b">For body</a>
+        <a href="#text-c">For hair</a>
         <a href="">Accessories</a>
     </div>
 
@@ -431,15 +430,13 @@
     </div>
 
 
-
-
     <!--  _______________text middle _____________________-->
-    <div class="span-text">
-        <h6>Get hands on with our receipe idess <span>Shop ALL Products</span></h6>
+    <div id="span-text">
+        <h1>Get hands on with our receipe idess <span>Shop ALL Products</span></h1>
     </div>
 
     <!-- _________________shop___________________ -->
-    <div class="text-a">
+    <div id="text-a">
         <h1>FOR FACE</h1>
     </div>
 
@@ -746,7 +743,7 @@
 
 
     <!-- ____________text for body_______________________ -->
-    <div class="text-a">
+    <div id="text-b">
         <h1>FOR BODY</h1>
     </div>
 
@@ -1053,7 +1050,7 @@
 
     <!-- ______________shop for hair__________________ -->
 
-    <div class="text-a">
+    <div id="text-c">
         <h1>FOR HAIR</h1>
     </div>
     <!-- __________hair_______________________ -->
@@ -1360,7 +1357,7 @@
     <!-- ___________________Reviews_________________________ -->
 
 
-    <section class="dermatologist">
+    <section id="dermatologist">
         <div class="recommended">
             <h1>Dermatologist Recommended</h1>
             <p>" The formulations demonstrate exceptional efficacy in clinical testing, with 95% of participants showing
@@ -1380,7 +1377,7 @@
     </section>
 
 
-    <!-- ___________________card_____________________ -->
+    <!-- ___________________card feedback _____________________ -->
     <div class="three-card">
         <div class="cards">
             <div class="introduction">
@@ -1445,10 +1442,10 @@
             </div>
         </div>
     </div>
-
+    <!-- _______________________referent ________________________________________ -->
     <div class="combind-card">
         <div class="first-card">
-            <h1>Our Story of Innovation</h1>
+            <h1>Our Story of <span>Innovation</span> </h1>
             <p>Founded by renowned dermatologist Dr. Elena Vasquez, LuminaSkin was born from a passion to
                 create truly transformative skincare that bridges the gap between luxury and science.
 
@@ -1485,106 +1482,158 @@
     </div>
 
 
-    <!-- ______________________ressquently asked quetions ________________________ -->
+    <!-- ______________________requently asked quetions ________________________ -->
     <div class="frequesntly">
         <h1>Frequently Asked Questions</h1>
         <h4>Everything you need to know about our premium skincare formulations.</h4>
     </div>
 
 
+    <!--  ___________________question and answers __________________________-->
+
+    <div class="question">
+
+        <details open>
+            <summary>How long before I see results with beautiful products?</summary>
+            <div class="faq-content">
+                Most customers notice initial improvements within 7–14 days, with significant results visible after 4–6
+                weeks of consistent use. Our clinical studies show optimal results after 12 weeks of regular
+                application.
+            </div>
+        </details>
+
+        <details>
+            <summary>Are beautiful products suitable for sensitive skin?</summary>
+            <div class="faq-content">
+                Yes, all beautiful products are formulated to be gentle and non-irritating, even for sensitive skin
+                types.
+            </div>
+        </details>
+
+        <details>
+            <summary><a href="#">What makes beautiful different from other luxury skincare brands?</a></summary>
+            <div class="faq-content">
+                beautiful uses cutting-edge botanical science combined with clean, effective ingredients that are
+                clinically proven to deliver results.
+            </div>
+        </details>
+
+        <details>
+            <summary>Can I use multiple beautiful products together?</summary>
+            <div class="faq-content">
+                Absolutely. Our products are designed to complement each other for a complete skincare regimen.
+            </div>
+        </details>
+
+        <details>
+            <summary>Do you offer a satisfaction guarantee?</summary>
+            <div class="faq-content">
+                Yes, we stand by our products. If you're not satisfied, we offer a 30-day money-back guarantee.
+            </div>
+        </details>
+    </div>
+
+
     <!-- ____________________footer___________________ -->
 
 
-    <!-- <div class="main-footer">
-            <div class="optional-1">
-                <div class="group-card">
-                    <img src="./delivery/image-removebg-preview (28).png" alt="">
-                    <h3>Free Deluxe Samples</h3>
-                    <p>On orders ower $60</p>
-                </div>
-
-            </div>
-            <div class="option-1">
-                <div class="group-card">
-                    <img src="./delivery/image-removebg-preview (30).png" alt="">
-                    <h3>Earn Reward Points</h3>
-                    <p>With ore loyalty programme</p>
-                </div>
-
-
-            </div>
-            <div class="optional-1">
-                <div class="group-card">
-                    <img src="./delivery/image-removebg-preview (29).png" alt="">
-                    <h3>Free Standard Delivery</h3>
-                    <p>On UK orders over $30</p>
-                </div>
-
+    <div id="main-footer">
+        <div class="optional-1">
+            <div class="group-card">
+                <img src="./delivery/image-removebg-preview (28).png" alt="">
+                <h3>Free Deluxe Samples</h3>
+                <p>On orders ower $60</p>
             </div>
 
         </div>
-        <hr>
-        <footer> -->
-    <!-- 1 -->
-    <!-- <div class="contact">
-                <div class="group-logo">
-                    <h2>BEAUTIFO</h2>
-                    <img src="./logo/pink-logo.png" alt="">
-                </div>
-                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Doloribus incidunt dolor nisi molestiae numquam tenetur?</P>
-                <div class="main-span">
-                    <span>(+885) 88-66-990</span> <br>
-                    <span>Koemseang@gmail.com</span>
-                </div>
-
-                <div class="qr">
-                    <img src="./product-muy-muy/QR.jpg" alt="">
-                </div>
-
-            </div> -->
-    <!-- 2 -->
-    <!-- <div class="about-us">
-                <h2>ABOUT US</h2>
-                <a href="">Story</a>
-                <a href="">Products</a>
-                <a href="">Blog</a>
-                <a href="">Giving Back</a>
-                <a href="">Partnreships</a>
-                <a href="">Careers</a>
-            </div> -->
-    <!-- </div>3 -->
-    <!-- <div class="support">
-                <h2>SUPPORT</h2>
-                <a href="">Shipping Info</a>
-                <a href="">Returns & Exchanges</a>
-                <a href="">Help & FAQ</a>
-                <a href="">Reviews</a>
-                <a href="">Quiz</a>
-                <a href="">Store Locator</a>
-
-            </div> -->
-    <!-- 4 -->
-    <!-- <div class="service-links">
-                <h2>SERVICES</h2>
-                <a href="#">Contact Us</a>
-                <a href="#">Delivery</a>
-                <a href="#">Returns</a>
-                <a href="#">My Account</a>
-                <a href="#">Rewards</a>
-            </div> -->
-
-    <!-- 5 -->
-    <!-- <div class="Socials">
-                <h2>SOCIAL MEDIA</h2>
-                <li><span class="icon-circle"><i class="fab fa-facebook-f"></i></span> <a href="#">Facebook</a></li>
-                <li><span class="icon-circle"><i class="fab fa-twitter"></i></span> <a href="#">Twitter</a></li>
-                <li><span class="icon-circle"><i class="fab fa-linkedin-in"></i></span> <a href="#">LinkedIn</a></li>
-                <li><span class="icon-circle"><i class="fab fa-pinterest-p"></i></span> <a href="#">Pinterest</a></li>
-                <li><span class="icon-circle"><i class="fab fa-youtube"></i></span> <a href="#">YouTube</a></li>
+        <div class="option-1">
+            <div class="group-card">
+                <img src="./delivery/image-removebg-preview (30).png" alt="">
+                <h3>Earn Reward Points</h3>
+                <p>With ore loyalty programme</p>
             </div>
 
-        </footer> -->
+
+        </div>
+        <div class="optional-1">
+            <div class="group-card">
+                <img src="./delivery/image-removebg-preview (29).png" alt="">
+                <h3>Free Standard Delivery</h3>
+                <p>On UK orders over $30</p>
+            </div>
+
+        </div>
+
+    </div>
+    <hr>
+    <footer>
+        <!-- 1 -->
+        <div class="contact">
+            <div class="group-logo">
+                <h2>BEAUTIFUL</h2>
+                <img src="./logo/pink-logo.png" alt="">
+            </div>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus incidunt dolor nisi molestiae numquam tenetur?
+                <br>(+885) 88-66-990 / Koemseang@gmail.com
+            </P>
+
+
+            <div class="qr">
+                <img src="./product-muy-muy/QR.jpg" alt="">
+            </div>
+
+        </div>
+        <!-- 2 -->
+        <div class="about-us">
+            <h2>ABOUT US</h2>
+            <a href="">Story</a>
+            <a href="">Products</a>
+            <a href="">Blog</a>
+            <a href="">Giving Back</a>
+            <a href="">Partnreships</a>
+            <a href="">Careers</a>
+        </div>
+        <!-- </div>3 -->
+        <div class="support">
+            <h2>SUPPORT</h2>
+            <a href="">Shipping Info</a>
+            <a href="">Returns & Exchanges</a>
+            <a href="">Help & FAQ</a>
+            <a href="">Reviews</a>
+            <a href="">Quiz</a>
+            <a href="">Store Locator</a>
+
+        </div>
+        <!-- 4 -->
+        <div class="service-links">
+            <h2>SERVICES</h2>
+            <a href="#">Contact Us</a>
+            <a href="#">Delivery</a>
+            <a href="#">Returns</a>
+            <a href="#">My Account</a>
+            <a href="#">Rewards</a>
+        </div>
+
+        <!-- 5 -->
+        <div class="Socials">
+            <h2>SOCIAL MEDIA</h2>
+            <li><span class="icon-circle"><i class="fab fa-facebook-f"></i></span> <a href="#">Facebook</a></li>
+            <li><span class="icon-circle"><i class="fab fa-twitter"></i></span> <a href="#">Twitter</a></li>
+            <li><span class="icon-circle"><i class="fab fa-linkedin-in"></i></span> <a href="#">LinkedIn</a></li>
+            <li><span class="icon-circle"><i class="fab fa-pinterest-p"></i></span> <a href="#">Pinterest</a></li>
+            <li><span class="icon-circle"><i class="fab fa-youtube"></i></span> <a href="#">YouTube</a></li>
+        </div>
+
+    </footer>
+
+    <!-- _____________________last page___________________________ -->
+    <hr>
+    <div class="last">
+        <p>© 2024 BEAUTIFO. All rights reserved. | Privacy Policy | Terms of Service</p>
+        <p>Dermatologist-tested • Cruelty-free • Premium Quality</p>
+    </div>
+
 
 </body>
 
