@@ -588,7 +588,131 @@ footer {
     color: #666;
 }
 
+/* partner */
+.partner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
 
+.partner h1 {
+    font-size: 40px;
+    color: #d42a7a;
+}
+
+/* ___________________________________________VIP class_____________________________ */
+
+
+.VIP {
+    width: 100%;
+    background: linear-gradient(10deg, #f5f7fa 0%, #df92ba 20%, #d42a7a 80%);
+    color: white;
+    height: 55vh;
+}
+
+.star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.star p {
+    font-size: 20px;
+}
+
+.star img {
+    filter: brightness(0) invert(1);
+    width: 4%;
+    padding: 30px 20px;
+}
+
+.VIP span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    font-weight: 600;
+    padding: 10px;
+
+}
+
+.VIP p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.img-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-time img {
+    width: 1.5%;
+    filter: brightness(0) invert(1);
+}
+
+.img-time p {
+    font-size: 15px;
+}
+
+.VIP button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    padding: 24px;
+    height: 5vh;
+    border: none;
+    color: #d42a7a;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+/* _________________our partner______________________ */
+.group-img {
+    overflow: hidden;
+    width: 100%;
+    padding: 10px 10px;
+    margin-top: 60px;
+    border-radius: 5px;
+
+}
+
+.class-img {
+
+    display: flex;
+    justify-content: space-between;
+    grid-auto-columns: 250px;
+    justify-items: stretch;
+    animation: animation 12s linear infinite;
+}
+
+.class-img img {
+    width: 200px;
+    height: 270px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+@keyframes animation {
+    to {
+        translate: calc(-4 * 250px);
+    }
+}
 
 
 /* __________________________text for body _________________________________________ */
@@ -618,7 +742,9 @@ footer {
     margin: 20px;
     margin-left: 18em;
     width: 60%;
-    background: pink;
+    background: rgb(241, 191, 200);
+    /* background: #d42a7a; */
+    color: white;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 30px 50px rgba(0, 0, 0, 0.08);
@@ -661,13 +787,15 @@ footer {
     display: flex;
     padding: 30px;
     gap: 30px;
+    color: white;
 }
 
 .cards {
     width: 50%;
-    background: pink;
+    background: rgb(241, 191, 200);
+    /* background: #d42a7a; */
     border-radius: 12px;
-    padding: 10px;
+    padding: 20px;
 }
 
 .introduction img {
@@ -714,18 +842,21 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 50%;
-    background: pink;
+    background: rgb(241, 191, 200);
+    /* background: #d42a7a;; */
     border-radius: 12px;
 }
 
 .fiteen h1 {
     font-size: 40px;
-    color: #d42a7a;
+    color: white;
+
+    /* color: #d42a7a; */
 
 }
 
 .fiteen p {
-    color: rgb(29, 29, 29);
+    color: white;
 }
 
 .fiteen {
@@ -823,19 +954,19 @@ details[open] summary:after {
     color: rgb(49, 46, 46);
 }
 
+/* ______________________map________________________ */
 
-
+.map {
+    margin-top: 10em;
+}
 
 /*____________________________ General Footer Container_________________________________ */
 footer {
-    background-color: #fce4ec;
-    /* Soft pastel pink */
+    background-color: #f8bbd0;
     padding: 60px 40px;
     display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: space-between;
+    /* justify-content: space-between; */
     color: #333;
-    font-family: 'Segoe UI', sans-serif;
     gap: 40px;
 
 }
@@ -861,9 +992,6 @@ footer a:hover {
     transform: translateX(4px);
 }
 
-
-
-/* ___________________________Contact/Brand Info_____________________________________*/
 .contact {
     flex: 1 1 250px;
 }
@@ -904,6 +1032,12 @@ footer a:hover {
     margin-top: 15px;
     border-radius: 6px;
     margin-left: -90px;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 /* _______________________Footer Columns_________________________________ */
@@ -948,6 +1082,8 @@ footer a:hover {
     padding: 30px 20px;
     border-top: 2px solid #f8bbd0;
     margin-top: 100px;
+    border-bottom: 2px solid #f8bbd0;
+
 }
 
 .group-card {
@@ -971,7 +1107,211 @@ footer a:hover {
     color: #666;
 }
 
-/* Divider */
+/* _____________contact_________________ */
+.contacted {
+    color: #d81b60;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+/* _______________social media__________________ */
+
+.socials {
+    display: inline-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.socials .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    margin: 0 20px;
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+}
+
+.icon span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials .icon span {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    display: block;
+    background: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 60%;
+    box-shadow: 0 10px 10px black;
+    z-index: 2;
+    cursor: pointer;
+
+}
+
+.socials .icon span i {
+    font-size: 15px;
+    line-height: 60px;
+
+}
+
+.socials .icon:hover span i {
+    color: whitesmoke;
+}
+
+.socials .icon .tooltip {
+    background: #eee;
+}
+
+.socials .icon .tooltip {
+    font-size: 20px;
+    background: #eee;
+    color: #eee;
+    white-space: nowrap;
+    padding-left: 10px 18px;
+    border-radius: 20px;
+    position: absolute;
+    top: 0px;
+    box-shadow: 0 10px 10px black;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.socials .icon:hover .tooltip {
+    top: -70px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.socials .icon .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 70px;
+    bottom: -8px;
+    background-color: #eee;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.socials .icon:hover span,
+.socials .icon:hover .tootip {
+    text-shadow: 0px -1px 0px black;
+}
+
+.socials .facebook:hover span,
+.socials .facebook:hover .tooltip,
+.socials .facebook:hover .tooltip::before {
+    background: rgb(36, 86, 224);
+}
+
+.socials .youtube:hover span,
+.socials .youtube:hover .tooltip,
+.socials .youtube:hover .tooltip::before {
+    background: rgb(211, 43, 43);
+}
+
+.socials .instagram:hover span,
+.socials .instagram:hover .tooltip,
+.socials .instagram:hover .tooltip::before {
+    background: rgb(185, 30, 107);
+}
+
+.socials .twiter:hover span,
+.socials .twiter:hover .tooltip,
+.socials .twiter:hover .tooltip::before {
+    background: rgb(6, 169, 244);
+}
+
+.socials .tiktok:hover span,
+.socials .tiktok:hover .tooltip,
+.socials .tiktok:hover .tooltip::before {
+    background: rgb(5, 5, 5);
+}
+
+.socials .phone:hover span,
+.socials .phone:hover .tooltip,
+.socials .phone:hover .tooltip::before {
+    background: rgb(17, 210, 72);
+}
+
+/* ________________stay in the Glow_____________________ */
+.stay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f8bbd0;
+
+}
+
+.p {
+    padding: 10px;
+}
+
+.p h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.input-email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.p p {
+    display: flex;
+    justify-content: center;
+
+}
+
+.input-email input {
+    width: 70%;
+    height: 5vh;
+    border-radius: 10px;
+    outline: none;
+    padding: 0px 8px;
+    border: 2px solid#d81b60;
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-email button {
+    background: #d81b60;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 20px 10px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease;
+
+}
+
+.input-email button:hover {
+    color: black;
+    background: white;
+
+}
+
+/* ___________Divider_________________ */
+
 hr {
     /* border: none; */
     border-top: 1px solid #666;
@@ -985,14 +1325,25 @@ hr {
     padding: 30px 150px;
     font-size: 0.85rem;
     color: #666;
-    background-color: #fce4ec;
+    background-color: #f8bbd0;
 
+}
+
+.last {
+    border-top: 1px solid gray;
 }
 
 
 /* _____________________Responsive _ tebplate ____________________________________________*/
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .look-gorgeous {
+        display: flex;
+        flex-direction: column;
+    }
+    #feature h1{
+       margin-top:  10%;
+    }
 
     /* __________banner_______________________ */
 
@@ -1009,7 +1360,7 @@ hr {
     /* __________________________two-small-banner_____________________________________ */
 
     .MAIN-CARD {
-      
+
         width: 100%;
     }
 
@@ -1044,119 +1395,48 @@ hr {
         width: 100%;
         margin-left: -0%;
     }
+
     /* ____________feedback______________________ */
-    
-    section{
+
+    section {
         width: 100%;
         margin-left: -30%;
     }
-    .trust{
+
+    .trust {
         width: 100%;
         margin-left: 55%;
 
     }
+
+    /* ____________________deiscount__________________________ */
+    .VIP button {
+        width: 30%;
+    }
+
+    .VIP img {
+        width: 5%;
+    }
+
+    .img-time p {
+        font-size: 40px;
+    }
+
+
     /* __________________requently _________________________________________ */
-    
-    .frequesntly{
+
+    .frequesntly {
         margin-left: 25%;
     }
+
     /* ______________last_____________________________ */
-    
-    .last{
+
+
+    .last {
         width: 73%;
-        margin-left: -30px;
-       
-
+        /* margin-left: -30px; */
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
-
-
 
 
 /* __________________Responsive Phone________________________________ */
@@ -1258,6 +1538,15 @@ hr {
         justify-content: center;
         align-items: center;
 
+    }
+
+    /* _____________________discount____________________________ */
+    .VIP button {
+        width: 80%;
+    }
+
+    .VIP img {
+        width: 6%;
     }
 
     /* ________________dermatologist____________________________ */
@@ -1393,30 +1682,12 @@ hr {
     .group-card {
         margin-bottom: 20px;
     }
+
+    .socials .icon {
+        margin-left: -1px;
+
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media (max-width: 992px) {
@@ -1440,6 +1711,7 @@ hr {
     }
 }
 
+/* taplap */
 @media (max-width: 768px) {
     .top-bar .content {
         flex-direction: column;
@@ -1461,9 +1733,53 @@ hr {
     .section-title h1 {
         font-size: 2rem;
     }
+
+    .socials {
+        width: 100%;
+
+    }
+
+    .class-img {
+        gap: 30px;
+    }
+
+    .socials {
+        width: 100%;
+        /* background: #000; */
+    }
+
+    .left-img img {
+        height: 43vh;
+        width: 100%;
+        margin-left: -1px;
+
+    }
+
+    .look-gorgeous {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #feature {
+        font-size: 30px;
+        margin-top: 50%;
+    }
+
+    .multiple-features button {
+        font-size: 30px;
+        width: 10%;
+        height: 5vh;
+    }
+
+    .multiple-features {
+        font-size: 30px;
+    }
+
+
 }
 
-@media (max-width: 576px) {
+@media screen and (min-width: 320px) and (max-width: 480px){
+    
     .group-text-baner h1 {
         font-size: 1.8rem;
     }
