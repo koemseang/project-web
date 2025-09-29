@@ -1341,11 +1341,12 @@ hr {
         display: flex;
         flex-direction: column;
     }
-    #feature h1{
-       margin-top:  10%;
+
+    #feature h1 {
+        margin-top: 10%;
     }
 
-    /* __________banner_______________________ */
+    /* __________banner_________________ */
 
     .group-text-baner h1 {
         font-size: 45px;
@@ -1357,10 +1358,14 @@ hr {
         font-size: 30px;
     }
 
+    .bainner {
+        height: 50vh;
+
+    }
+
     /* __________________________two-small-banner_____________________________________ */
 
     .MAIN-CARD {
-
         width: 100%;
     }
 
@@ -1460,7 +1465,6 @@ hr {
         display: flex;
         flex-direction: column;
         width: 100%;
-        /* background: #000; */
         padding-bottom: 70px;
 
     }
@@ -1653,7 +1657,7 @@ hr {
         height: 200px;
     }
 
-    /* __________________________ Footer____________________________*/
+    /* ___________________ Footer_______________________*/
     footer {
         flex-direction: column;
         align-items: center;
@@ -1687,6 +1691,22 @@ hr {
         margin-left: -1px;
 
     }
+
+
+}
+
+@media (min-width: 320px) {
+    .bainner{
+        width: 100%;
+        height: 100vh;
+    }
+    .two-cards{
+        margin-top: 4em;
+    }
+    #feature{
+        margin-top: 18em;
+    }
+
 }
 
 
@@ -1775,11 +1795,45 @@ hr {
         font-size: 30px;
     }
 
+    .card-right .look-gorgeous {
+        margin-left: 20px;
+    }
+
+    .MAIN-CARD .card-left {
+        margin-left: 15px;
+    }
+
+    .MAIN-CARD img {
+        width: 50%;
+        margin-left: 14em;
+    }
+
+    #feature {
+        font-size: 15px;
+        margin-top: 29em;
+    }
+
+    .multiple-features a {
+        font-size: 15px;
+    }
+
+    .three-card {
+        margin-right: 17px;
+    }
+
+    .frequesntly {
+        margin-left: 10px;
+    }
+
+    .question {
+        margin-left: -100px;
+    }
 
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px){
-    
+
+/* @media screen and (min-width: 320px) and (max-width: 480px) {
+
     .group-text-baner h1 {
         font-size: 1.8rem;
     }
@@ -1797,4 +1851,24 @@ hr {
         padding: 10px 20px;
         font-size: 0.8rem;
     }
+} */
+
+@media(max-width: 1280px) {
+    .MAIN-CARD img {
+        display: none;
+
+    }
+
+    .button button {
+        width: 20%;
+    }
+
+    #dermotologist {
+        width: 80%;
+    }
+
+    .recommended {
+        width: 100%;
+    }
+
 }
