@@ -1343,8 +1343,10 @@ hr {
     }
 
     #feature h1 {
-        margin-top: 10%;
+        margin-top: 20%;
     }
+
+   
 
     /* __________banner_________________ */
 
@@ -1426,7 +1428,9 @@ hr {
     .img-time p {
         font-size: 40px;
     }
-
+    .button button{
+        width: 15%;
+    }
 
     /* __________________requently _________________________________________ */
 
@@ -1442,7 +1446,6 @@ hr {
         /* margin-left: -30px; */
     }
 }
-
 
 /* __________________Responsive Phone________________________________ */
 @media (max-width: 480px) {
@@ -1497,7 +1500,7 @@ hr {
     }
 
     #feature {
-        margin-top: 15em;
+        margin-top: 20em;
     }
 
     .look-gorgeous {
@@ -1696,14 +1699,16 @@ hr {
 }
 
 @media (min-width: 320px) {
-    .bainner{
+    .bainner {
         width: 100%;
         height: 100vh;
     }
-    .two-cards{
+
+    .two-cards {
         margin-top: 4em;
     }
-    #feature{
+
+    #feature {
         margin-top: 18em;
     }
 
